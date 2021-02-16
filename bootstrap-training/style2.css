@@ -1,0 +1,33 @@
+.container {
+
+
+}
+
+.header {
+  background-color:#1c3dd4;
+  color: #fff;
+  padding-top: 28px;
+}
+
+.nav {
+  border-radius:8px;
+  background-color: #2cad68;
+
+}
+
+.aside {
+  border-radius:8px;
+  background-color: #dc1c95;
+}
+
+.article {
+  border-radius:8px;
+  background-color: #e9fb03;
+   direction: ltr;
+
+}
+
+.footer {
+  background-color: #443c3c;
+  color: #fff;
+}
