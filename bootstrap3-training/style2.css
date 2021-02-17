@@ -9,7 +9,7 @@
 html{
   direction:rtl; 
   text-align: center;
-  box-sizing: border-box !important;
+  /*box-sizing: border-box !important;*/
   overflow-x: hidden;
 }
 
@@ -37,6 +37,8 @@ body {
 .header {
   background-color:#1c3dd4;
   color: #fff;
+  box-sizing: border-box ;
+  width:100%;
   padding-top: 28px;
   font-family: "yekan";
   height:100px;
