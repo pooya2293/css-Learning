@@ -1,0 +1,15 @@
+.contact {
+	background-color: $color3;
+	button {
+		background-color: $color2;
+
+		&:hover {
+			background-color: $color4;
+			padding: 10px;
+			transition: all 1s ease;
+		}
+		&::after {
+			content: ' goodBye';
+		}
+	}
+}

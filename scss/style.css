@@ -1,0 +1,22 @@
+header {
+  background-color: #7ed6df;
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  background-color: #ffbe76;
+}
+.contact button {
+  background-color: #f6e58d;
+}
+.contact button:hover {
+  background-color: #7ed6df;
+  padding: 10px;
+  transition: all 1s ease;
+}
+.contact button::after {
+  content: " goodBye";
+}
+
+/*# sourceMappingURL=style.css.map */
