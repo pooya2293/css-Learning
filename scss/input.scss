@@ -1,7 +1,13 @@
 @import './variables';
-header {
-	background-color: $color4;
+/* define mixin like function in js */
+@mixin flexCenter{
 	display: flex;
 	justify-content: center;
+	align-items: center;
+}
+
+header {
+	background-color: $color4;
+	@include flexCenter();
 }
 @import './header';

@@ -1,11 +1,16 @@
+/* define mixin like function in js */
 header {
   background-color: #7ed6df;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .contact {
   background-color: #ffbe76;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contact button {
   background-color: #f6e58d;
