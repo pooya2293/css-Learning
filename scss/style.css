@@ -1,27 +1,11 @@
 /* define mixin like function in js */
-header {
+header, .contact {
   background-color: #7ed6df;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.contact {
-  background-color: #ffbe76;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.contact button {
-  background-color: #f6e58d;
-}
-.contact button:hover {
-  background-color: #7ed6df;
-  padding: 10px;
-  transition: all 1s ease;
-}
-.contact button::after {
-  content: " goodBye";
+  height: 140px;
+  background-color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
