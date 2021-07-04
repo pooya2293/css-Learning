@@ -10,8 +10,8 @@ header {
 	background: $dark-color;
 	color: $light-color;
 	padding: 1rem;
+	h1 {
+		text-align: center;
+	}
 }
 
-header h1 {
-	text-align: center;
-}
