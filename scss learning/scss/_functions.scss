@@ -1,7 +1,15 @@
+// if lightness of color bigger than 50 return dark-color else return light-color
 @function set-text-color($color){
 	@if( lightness($color) ) > 50{
 		@return $dark-color;
 	}@else {
 		@return $light-color;
 	}
+}
+
+@mixin transform($number){
+	-webkit-transform: $number;
+	-moz-transform: $number;
+	-o-transform: $number;
+	transform: $number;
 }

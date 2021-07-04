@@ -58,13 +58,19 @@ a {
 	&-light {
 		@extend %btn;
 		background: $light-color;
-		color: $dark-color; 
+		color: $dark-color;
+		&:hover{
+			@include transform(rotate(20deg));
+		} 
 	}
 
 	&-dark {
 		@extend %btn;
 		background: $dark-color;
 		color: $light-color;
+		&:hover{
+			@include transform(translateX(20px));
+		} 
 	}
 }
 
