@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0; }
+
 body {
   background: #f1f76b;
   color: #383232;
@@ -9,3 +13,18 @@ header {
   padding: 1rem; }
   header h1 {
     text-align: center; }
+
+.section {
+  padding: 3rem;
+  color: #fff; }
+  .section h3 {
+    font-size: 2rem; }
+  .section-a {
+    background: #399ac7; }
+  .section-b {
+    background: #2ad5d0; }
+
+a {
+  color: #383232; }
+  a:hover {
+    color: #f1f76b; }
