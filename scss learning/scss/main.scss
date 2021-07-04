@@ -40,7 +40,30 @@ header {
 a {
 	color:$dark-color;
 	&:hover {
-		color:$light-color;
+		color:$primary-color;
+	}
+}
+
+// inheritance
+%btn {
+	display: inline-block;
+	padding: .7rem .2rem;
+	margin-top: 1rem;
+	border: none;
+	text-decoration: none;
+}
+
+.btn {
+	&-light {
+		@extend %btn;
+		background: $light-color;
+		color: $dark-color; 
+	}
+
+	&-dark {
+		@extend %btn;
+		background: $dark-color;
+		color: $light-color;
 	}
 }
 

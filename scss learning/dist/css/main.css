@@ -27,4 +27,19 @@ header {
 a {
   color: #383232; }
   a:hover {
-    color: #f1f76b; }
+    color: #399ac7; }
+
+.btn-light, .btn-dark {
+  display: inline-block;
+  padding: .7rem .2rem;
+  margin-top: 1rem;
+  border: none;
+  text-decoration: none; }
+
+.btn-light {
+  background: #f1f76b;
+  color: #383232; }
+
+.btn-dark {
+  background: #383232;
+  color: #f1f76b; }
