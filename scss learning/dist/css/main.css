@@ -8,8 +8,8 @@ body {
   font-family: arial, sans-serif; }
 
 header {
-  background: #383232;
-  color: #f1f76b;
+  background: #f1f76b;
+  color: #383232;
   padding: 1rem; }
   header h1 {
     text-align: center; }
