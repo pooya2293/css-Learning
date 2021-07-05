@@ -1,0 +1,27 @@
+@import 'fonts';
+@import 'variables';
+
+//Reset CSS
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: $font-family-vazir;
+  line-height: 1.6;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: $dark-color;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
