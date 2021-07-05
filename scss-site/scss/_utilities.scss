@@ -9,6 +9,42 @@
 	color: $primary-color;
 }
 
+// Buttons
+%btn-shared {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  &-primary {
+    @extend %btn-shared;
+    color: #333;
+    background-color: $primary-color;
+  }
+
+  &-light {
+    @extend %btn-shared;
+    color: #333;
+    background-color: $light-color;
+  }
+
+  &-dark {
+    @extend %btn-shared;
+    color: #f4f4f4;
+    background-color: $dark-color;
+  }
+}
+
+a[class^="btn-"]:hover,
+button[class^="btn-"]:hover,
+input[class^="btn-"]:hover,{
+  background-color: $primary-color;
+  color: white;
+}
+
 // Padding
 .py {
   &-1 {
@@ -40,3 +76,5 @@
     margin: 4rem 0;
   }
 }
+
+
