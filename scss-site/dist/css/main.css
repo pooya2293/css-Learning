@@ -21,7 +21,7 @@
 body {
   font-family: "Vazir";
   line-height: 1.6;
-  background: #fff; }
+  background: #333; }
 
 a {
   text-decoration: none;
@@ -52,3 +52,12 @@ img {
     padding-bottom: .4rem; }
     #main-nav a:hover {
       border-color: #ccc; }
+    #main-nav a.active {
+      border-color: #4834d4; }
+
+#header-home {
+  background: -webkit-linear-gradient(rgba(20, 20, 20, 0.2), rgba(255, 255, 255, 0.9)), url("../images/pexels-simon-berger-1323550.jpg") no-repeat center center/cover;
+  background: --o-linear-gradient(rgba(20, 20, 20, 0.2), rgba(255, 255, 255, 0.9)), url("../images/pexels-simon-berger-1323550.jpg") no-repeat center center/cover;
+  background: -moz-linear-gradient(rgba(20, 20, 20, 0.2), rgba(255, 255, 255, 0.9)), url("../images/pexels-simon-berger-1323550.jpg") no-repeat center center/cover;
+  background: --linear-gradient(rgba(20, 20, 20, 0.2), rgba(255, 255, 255, 0.9)), url("../images/pexels-simon-berger-1323550.jpg") no-repeat center center/cover;
+  height: 100vh; }

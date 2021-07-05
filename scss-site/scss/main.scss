@@ -11,7 +11,7 @@
 body {
   font-family: $font-family-vazir;
   line-height: 1.6;
-  background: #fff;
+  background: #333;
 }
 
 a {
@@ -49,5 +49,16 @@ img {
 		&:hover {
 			border-color: $medium-color;
 		}
+
+		&.active {
+			border-color: $primary-color;
+		}
+	}
+}
+
+#header {
+	&-home {
+		@include background-gradiant($bg-image,$gradi-color1,$gradi-color2)
+		height: 100vh;
 	}
 }

@@ -4,3 +4,10 @@
 	--o-transition : $property $duration;
 	transition : $property $duration;
 }
+
+@mixin background-gradiant($url,$color1,$color2){
+	background: -webkit-linear-gradient($color1,$color2) , $url no-repeat center center/cover ;
+	background: --o-linear-gradient($color1,$color2) , $url no-repeat center center/cover ;
+	background: -moz-linear-gradient($color1,$color2) , $url no-repeat center center/cover ;
+	background: --linear-gradient($color1,$color2) , $url no-repeat center center/cover ;
+}
