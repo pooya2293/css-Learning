@@ -11,7 +11,7 @@
 body {
   font-family: $font-family-vazir;
   line-height: 1.6;
-  background: #333;
+  background: #fff;
 }
 
 a {
@@ -58,7 +58,17 @@ img {
 
 #header {
 	&-home {
-		@include background-gradiant($bg-image,$gradi-color1,$gradi-color2)
+		@include background-gradiant($bg-image,$gradi-color1,$gradi-color2);
 		height: 100vh;
+		color: #fff;
+
+		.header-content{
+			text-align: center;
+			padding-top: 10%;
+		}
+
+		h1 {
+			font-size: 2rem;
+		}
 	}
 }

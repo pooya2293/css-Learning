@@ -14,6 +14,30 @@
 .text-primary {
   color: #4834d4; }
 
+.py-1 {
+  padding: 1rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.py-4 {
+  padding: 4rem 0; }
+
+.my-1 {
+  margin: 1rem 0; }
+
+.my-2 {
+  margin: 2rem 0; }
+
+.my-3 {
+  margin: 3rem 0; }
+
+.my-4 {
+  margin: 4rem 0; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -21,7 +45,7 @@
 body {
   font-family: "Vazir";
   line-height: 1.6;
-  background: #333; }
+  background: #fff; }
 
 a {
   text-decoration: none;
@@ -60,4 +84,10 @@ img {
   background: --o-linear-gradient(rgba(20, 20, 20, 0.2), rgba(255, 255, 255, 0.9)), url("../images/pexels-simon-berger-1323550.jpg") no-repeat center center/cover;
   background: -moz-linear-gradient(rgba(20, 20, 20, 0.2), rgba(255, 255, 255, 0.9)), url("../images/pexels-simon-berger-1323550.jpg") no-repeat center center/cover;
   background: --linear-gradient(rgba(20, 20, 20, 0.2), rgba(255, 255, 255, 0.9)), url("../images/pexels-simon-berger-1323550.jpg") no-repeat center center/cover;
-  height: 100vh; }
+  height: 100vh;
+  color: #fff; }
+  #header-home .header-content {
+    text-align: center;
+    padding-top: 10%; }
+  #header-home h1 {
+    font-size: 2rem; }
