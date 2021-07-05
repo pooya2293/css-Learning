@@ -5,6 +5,15 @@
   src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"), url("../fonts/Vazir.woff2") format("woff2"), url("../fonts/Vazir.woff") format("woff"), url("../fonts/Vazir.ttf") format("truetype");
   /* Safari, Android, iOS */ }
 
+.container {
+  max-width: 1280px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden; }
+
+.text-primary {
+  color: #4834d4; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -23,3 +32,23 @@ ul {
 
 img {
   width: 100%; }
+
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem; }
+  #main-nav ul {
+    display: flex; }
+  #main-nav li {
+    padding: 1rem 1.5rem; }
+  #main-nav a {
+    color: #fff;
+    border-bottom: solid transparent 2px;
+    --webkit-transition: $property $duration;
+    --ms-transition: $property $duration;
+    --o-transition: $property $duration;
+    transition: border-color 0.5s;
+    padding-bottom: .4rem; }
+    #main-nav a:hover {
+      border-color: #ccc; }

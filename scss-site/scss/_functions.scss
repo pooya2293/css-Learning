@@ -1,0 +1,6 @@
+@mixin transition( $property,$duration ){
+	--webkit-transition : $property $duration;
+	--ms-transition : $property $duration;
+	--o-transition : $property $duration;
+	transition : $property $duration;
+}

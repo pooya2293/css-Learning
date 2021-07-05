@@ -1,5 +1,7 @@
 @import 'fonts';
 @import 'variables';
+@import 'utilities';
+@import 'functions';
 
 //Reset CSS
 * {
@@ -25,3 +27,27 @@ img {
   width: 100%;
 }
 
+#main-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 1rem;
+	ul {
+		display: flex;
+	}
+
+	li {
+		padding: 1rem 1.5rem;
+	}
+
+	a{
+		color: #fff;
+		border-bottom: solid transparent 2px;
+		@include transition(border-color,.5s);
+		padding-bottom: .4rem;
+
+		&:hover {
+			border-color: $medium-color;
+		}
+	}
+}
