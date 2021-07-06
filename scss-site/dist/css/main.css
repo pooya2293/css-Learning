@@ -100,9 +100,10 @@ img {
   #main-nav ul {
     display: flex; }
   #main-nav li {
-    padding: 1rem 1.5rem; }
+    padding: 1rem 1rem; }
   #main-nav a {
     color: #fff;
+    font-size: 1em;
     border-bottom: solid transparent 2px;
     --webkit-transition: $property $duration;
     --ms-transition: $property $duration;
@@ -125,7 +126,7 @@ img {
     text-align: center;
     padding-top: 10%; }
   #header-home h1 {
-    font-size: 2rem; }
+    font-size: 200%; }
 
 #home-1 .items {
   margin-top: 3rem;
@@ -165,12 +166,14 @@ img {
     right: 0;
     font-size: 28px;
     background: #4834d4;
-    color: #333;
+    color: #fff;
     border-radius: 50%;
     height: 15px;
     width: 15px;
     line-height: 15px;
-    padding: 1rem;
+    padding: 15%;
+    text-align: center;
+    left: 2px;
     --webkit-transition: $property $duration;
     --ms-transition: $property $duration;
     --o-transition: $property $duration;
@@ -181,9 +184,9 @@ img {
     background: #333;
     color: #fff;
     padding: 2rem;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
     text-align: center;
     font-size: 60px;
     --webkit-transition: $property $duration;
@@ -220,3 +223,53 @@ img {
     font-size: 22px; }
     #main-footer .social .fab:hover {
       background: #4834d4; }
+
+@media (max-width: 769px) {
+  #header-home {
+    height: 30rem; }
+  #main-nav {
+    font-size: .6em; }
+  #home-3 .process {
+    font-size: 20px; }
+    #home-3 .process-step {
+      top: -10px;
+      right: -10px;
+      width: 5px;
+      height: 5px;
+      line-height: 5px;
+      font-size: 25px; }
+    #home-3 .process-icon {
+      width: 46px;
+      height: 46px;
+      line-height: 46px;
+      font-size: 2.5em; } }
+
+@media (max-width: 500px) {
+  #main-nav {
+    flex-direction: column;
+    align-items: center; }
+    #main-nav ul {
+      order: 2; }
+    #main-nav li {
+      padding: 1rem .7rem; }
+  #header-home {
+    height: 9rem;
+    border-bottom: 2px solid #4834d4; }
+    #header-home .header-content {
+      display: none; }
+  #home-1 .items,
+  #home-2 .items,
+  #home-3 .process {
+    grid-template-columns: 1fr; }
+  #home-1 .items div {
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 1rem; }
+    #home-1 .items div:last-child {
+      border: none;
+      padding-bottom: 0; }
+  #main-footer {
+    height: 7rem; }
+    #main-footer .footer-content {
+      flex-direction: column;
+      padding: 1rem;
+      height: 5rem; } }
