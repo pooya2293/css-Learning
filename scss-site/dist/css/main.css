@@ -156,4 +156,67 @@ img {
 
 #home-3 .process {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); }
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  text-align: center; }
+  #home-3 .process-step {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 28px;
+    background: #4834d4;
+    color: #333;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    padding: 1rem;
+    --webkit-transition: $property $duration;
+    --ms-transition: $property $duration;
+    --o-transition: $property $duration;
+    transition: all 0.8s; }
+  #home-3 .process-icon {
+    position: relative;
+    border-radius: 50%;
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 60px;
+    --webkit-transition: $property $duration;
+    --ms-transition: $property $duration;
+    --o-transition: $property $duration;
+    transition: all 0.8s; }
+    #home-3 .process-icon:hover {
+      background: #4834d4;
+      width: 90px;
+      height: 90px;
+      line-height: 90px; }
+      #home-3 .process-icon:hover .process-step {
+        background: #333;
+        color: #fff; }
+
+#main-footer {
+  background: #333;
+  color: #fff;
+  height: 5rem; }
+  #main-footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center; }
+  #main-footer .social .fab {
+    margin-right: 1rem;
+    border: 2px #fff solid;
+    border-radius: 50%;
+    height: 19px;
+    width: 19px;
+    line-height: 19px;
+    text-align: center;
+    padding: .5rem;
+    font-size: 22px; }
+    #main-footer .social .fab:hover {
+      background: #4834d4; }
