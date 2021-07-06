@@ -11,3 +11,12 @@
 	background: -moz-linear-gradient($color1,$color2) , $url no-repeat center center/cover ;
 	background: --linear-gradient($color1,$color2) , $url no-repeat center center/cover ;
 }
+
+// Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #333;
+  } @else {
+    @return #fff;
+  }
+}

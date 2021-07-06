@@ -9,6 +9,18 @@
 	color: $primary-color;
 }
 
+.text-center {
+	text-align: center;
+}
+
+.bottom-line {
+    height: 2px;
+    width: 3rem;
+    background: $primary-color;
+    display: block;
+    margin: 0 auto 1rem auto;
+} 
+
 // Buttons
 %btn-shared {
   display: inline-block;

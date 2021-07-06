@@ -47,7 +47,7 @@ img {
 		padding-bottom: .4rem;
 
 		&:hover {
-			border-color: $medium-color;
+			border-color: #fff;
 		}
 
 		&.active {
@@ -72,3 +72,62 @@ img {
 		}
 	}
 }
+
+#home {
+  &-1 {
+    .items {
+      margin-top: 3rem;
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(4, 1fr);
+
+      .fas {
+        color: $primary-color;
+        padding-bottom: 0.4rem;
+      }
+    }
+  }
+
+  &-2 {
+    .items {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+
+      li {
+        line-height: 2;
+
+        &.items-title {
+          font-size: 1.5rem;
+        }
+
+        &.items-number {
+          font-size: 2rem;
+          font-weight: bold;
+        }
+      }
+
+      div {
+      	padding: 3rem 0;
+
+      	&:nth-child(odd){
+      		background: $primary-color;
+      		color: #fff;
+      	}
+
+      	&:nth-child(even) {
+      		background: $light-color;
+      	}
+      }
+    }
+  }
+
+  &-3 {
+    .process {
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+    }
+  }
+
+}
+
+

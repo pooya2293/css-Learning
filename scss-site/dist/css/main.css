@@ -14,6 +14,16 @@
 .text-primary {
   color: #4834d4; }
 
+.text-center {
+  text-align: center; }
+
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: #4834d4;
+  display: block;
+  margin: 0 auto 1rem auto; }
+
 .btn-primary, .btn-light, .btn-dark {
   display: inline-block;
   padding: 0.8rem 2rem;
@@ -100,7 +110,7 @@ img {
     transition: border-color 0.5s;
     padding-bottom: .4rem; }
     #main-nav a:hover {
-      border-color: #ccc; }
+      border-color: #fff; }
     #main-nav a.active {
       border-color: #4834d4; }
 
@@ -116,3 +126,34 @@ img {
     padding-top: 10%; }
   #header-home h1 {
     font-size: 2rem; }
+
+#home-1 .items {
+  margin-top: 3rem;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr); }
+  #home-1 .items .fas {
+    color: #4834d4;
+    padding-bottom: 0.4rem; }
+
+#home-2 .items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
+  #home-2 .items li {
+    line-height: 2; }
+    #home-2 .items li.items-title {
+      font-size: 1.5rem; }
+    #home-2 .items li.items-number {
+      font-size: 2rem;
+      font-weight: bold; }
+  #home-2 .items div {
+    padding: 3rem 0; }
+    #home-2 .items div:nth-child(odd) {
+      background: #4834d4;
+      color: #fff; }
+    #home-2 .items div:nth-child(even) {
+      background: #f4f4f4; }
+
+#home-3 .process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
