@@ -15,7 +15,7 @@ export default function App() {
               src="./img/azadi.jpg"
               alt="Woman workcationing on the beach"
             />
-            <h1 className="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">
+            <h1 className="mt-6 text-2xl font-bold text-sexy-dark sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">
               You can work from anywhere.
               <br className="hidden lg:inline" /> <span className="text-indigo-500">Take advantage of it.</span>
             </h1>
