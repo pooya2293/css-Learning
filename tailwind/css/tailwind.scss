@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 @layer components {
-	.btn{
+	.btn-primary{
 		@apply inline-block px-5 py-2 rounded-lg shadow-xl bg-indigo-600 hover:bg-indigo-500 sm:hover:bg-green-500 sm:hover:text-xl hover:-translate-y-0.5 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-indigo-500 focus:ring-opacity-50 active:bg-indigo-900 text-white font-semibold text-sm;
+	}
+	.btn-secondary{
+		@apply inline-block px-5 py-2 rounded-lg shadow-xl bg-green-600 hover:bg-green-500 sm:hover:bg-indigo-500 sm:hover:text-xl hover:-translate-y-0.5 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-green-500 focus:ring-opacity-50 active:bg-green-900 text-white font-semibold text-sm;
 	}
 }
