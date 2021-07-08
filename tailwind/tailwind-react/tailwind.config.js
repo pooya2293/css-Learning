@@ -4,9 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        sexy: "#e4ad02",
-        "sexy-light": "#eaf37b",
-        "sexy-dark": "#eb8805",
+        sexy:{
+          light: "#eaf37b",//EX: bg-sexy-light
+          DEFAULT:"#e4ad02",//EX: bg-sexy
+          dark: "#eb8805",//EX: bg-sexy-dark
+        },
       },
     },
   },
